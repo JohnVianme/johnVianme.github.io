@@ -1,3 +1,13 @@
+@keyframes transition {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: 183, 129, 233;
+    }
+}
+
 .name {
     position: relative;
     top: 200px;
@@ -5,7 +15,8 @@
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -24,7 +35,7 @@ body{
     height: 50px;
     gap: 10px;
     width: 100%;
-    overflow:visible;
+    overflow: visible;
 }
 
 .nav-links li {
@@ -39,16 +50,18 @@ body{
     text-decoration: none;
     margin: 0;
 }
+
 .nav-links li:hover {
     background-color: rgb(230, 202, 152);
 }
 
-.me{
+.me {
     width: 260px;
     height: 400px;
     padding-left: 800px;
 }
-.me-div{
+
+.me-div {
     display: flex;
     background-color: rgb(183, 129, 233);
     justify-content: center;
